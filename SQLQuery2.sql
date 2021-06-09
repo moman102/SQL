@@ -60,6 +60,7 @@ SELECT NAME , LISTPRICE ,LISTPRICE +10 AS ADJUSTED_LISTPRICE FROM Production.Pro
 
 SELECT NAME , LISTPRICE ,LISTPRICE +10 AS ADJUSTED_LISTPRICE INTO Production.product_2 FROM Production.Product
 
-SELECT * FROM Production.product_2
+SELECT * FROM [Poduction].[Product_2]
+
 
 
